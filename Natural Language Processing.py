@@ -4,9 +4,7 @@ NLP
 Predicting if the reviews of a restaurant are good or bad
 """
 # Importing libraries
-#import numpy as np
 import pandas as pd
-#import matplotlib.pyplot as plt
 
 # Importing dataset
 dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3) # Ignoring double quotes

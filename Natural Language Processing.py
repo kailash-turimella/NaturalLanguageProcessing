@@ -32,7 +32,6 @@ cv = CountVectorizer(max_features = 1500)
 X = cv.fit_transform(corpus).toarray()
 y = dataset.iloc[:,1].values
 
-
 # Naive Bayes
 
 # Splitting the data set into training set and test set

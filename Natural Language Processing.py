@@ -1,6 +1,5 @@
 """
 NLP
-
 Predicting if the reviews of a restaurant are good or bad
 """
 # Importing libraries
